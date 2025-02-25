@@ -1,0 +1,110 @@
+//Autor: Gabriel Araujo do Sousa
+//Data:25/02/2025
+//Nome do prgrama: Matematica
+//Descricao: Uma atividade que estou aprendendo na sala de aula
+
+
+
+
+//ATIVIDADE1 
+
+int resultadoA = 500;
+int resultadoB = 0; 
+int resultado = 0;
+float resultadoReal =0;
+int valor1;
+int valor2;
+
+
+
+
+void setup()
+{
+  //ATIVIDADE2
+  
+   Serial.begin(9600);
+  resultado = map (500, 0, 1023,0,100);
+  Serial.println(resultado);
+  
+  resultado = constrain(resultado,20 , 80);
+  Serial.println(resultado);
+  
+int valor = 0;
+
+valor++;
+Serial.println(valor);
+
+valor++;
+Serial.println(valor);
+
+valor++;
+Serial.println(valor);
+
+valor++;
+Serial.println(valor);
+
+valor++;
+Serial.println(valor);
+
+valor++;
+Serial.println(valor);
+
+valor++;
+Serial.println(valor);
+
+valor++;
+Serial.println(valor);
+
+valor++;
+Serial.println(valor);
+
+valor++;
+Serial.println(valor);
+
+valor--;
+Serial.println(valor);
+
+valor--;
+Serial.println(valor);
+               
+valor--;
+Serial.println(valor); 
+
+valor--;
+Serial.println(valor);
+
+valor--;
+Serial.println(valor);               
+
+valor--;
+Serial.println(valor);
+               
+ valor--;
+Serial.println(valor);              
+               
+ valor--;
+Serial.println(valor);
+               
+valor--;
+Serial.println(valor);
+               
+ valor--;
+Serial.println(valor); 
+ 
+  //ATIVIDADE3
+  
+ 
+  float valor1 = 10;
+  float valor2 = 7;
+  
+  
+ 
+ 
+ float resultadoMedia = 0;
+   
+ resultadoMedia = (valor1 + valor2) / 2,0;
+ Serial.println(resultadoMedia); 
+ 
+    
+    
+}
