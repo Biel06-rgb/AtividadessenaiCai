@@ -1,0 +1,145 @@
+//Autor:Gabriel Araujo de Sousa
+//Data:27/02/2025
+//Descricao: Aula-29 execicios de estrutura condicional
+
+//ATIVIDADE1
+
+void setup()
+{
+  
+  
+  #define pinLedVermelho 13
+   int temperatura = 25;
+  
+  pinMode(pinLedVermelho, OUTPUT);
+
+  
+  if(temperatura > 30){
+  digitalWrite(pinLedVermelho, HIGH);
+  }
+  
+  
+  
+  
+  //ATIVIDADE2
+  
+  #define pinLedVermelho 12
+  
+  pinMode(pinLedVermelho, OUTPUT);
+ 
+ digitalWrite(pinLedVermelho, HIGH);
+ 
+
+  int bateria = 15;
+       
+       if(bateria <20){
+       digitalWrite(pinLedVermelho, HIGH);
+         
+         
+  //ATIVIDADE3
+         
+   #define pinLedVermelho 11
+    
+    pinMode(pinLedVermelho, OUTPUT);
+     
+    digitalWrite(pinLedVermelho, HIGH);     
+         
+         
+    int numero = 4;
+         
+     int resultado = numero % 2;
+         
+         
+       pinMode(pinLedVermelho, OUTPUT);
+         
+         if (resultado == 0){
+         digitalWrite(pinLedVermelho, HIGH);
+           
+           
+           
+           
+           //ATIVIDADE4
+           
+           int numero1 = -10;
+         
+           if (numero1 >0){
+           Serial.println("Esse numero e positivo");
+           }else if(numero1 < 10){
+           Serial.println("Esse numero e negativo");
+           } 
+             //ATIVIDADE5
+             
+             
+             int salario = 200;
+             int resultado = 0;
+             
+             if (salario < 1000){
+               resultado = salario * 10 / 100;}
+               
+                Serial.println("NOME: LUCAS ");
+                 Serial.println("GARGO estagio");
+                 Serial.println("o acrecimo eh de");
+                 Serial.println(resultado);
+             } 
+                int salario2 = 500;
+                 int resultado2 = 0;
+                 
+                 
+             if (salario2 < 1000){
+                   resultado2 = salario2 * 10 / 100;}
+            
+                 Serial.println("NOME: CAIO ");
+                  Serial.println("CARGO motorista");  
+                  Serial.println("o resultado eh de ");
+                   Serial.println(resultado2);  
+           
+                   }
+           
+       }  
+            
+             
+             
+                       
+             
+           
+           
+           
+           
+           
+           
+           
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        
+       
+  
+  
+  
+  
+    
+ 
+
+  
+  
+
+ 
+
+
+void loop()
+{
+  
+  
+} 
+   
+
